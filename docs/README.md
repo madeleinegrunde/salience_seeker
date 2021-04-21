@@ -6,22 +6,21 @@ This file describes the major components of our project. Each section contains t
 
 ### [3.5 points] Setup
 
-1. [0.5 points] Decide 5 changes between avatars and make groups of 1, 3, and 5 changes. Determine the number of examples of each group that will be needed to find significant results.
-2. [2 points] Make avatar pairs using https://avatarmaker.com/ that differ along 1, 3, or all 5 components. Choose which avatar the worker will need to identify is the one to be identified) out of the two avatars, and add a “gold standard” word that correctly identifies the ‘correct’ avatar out of the two.
-3. [0.5 point] Set up an AWS account and host the images on S3 buckets
-4. [0.5 points] Create CSV files to import into MTurk. These CSV files include links to the pair of images, as well as an indication of which image will count as a “priority”
-
+1. [0.5 points] Decide 5 changes between avatars and make groups of 1, 2, and 3 changes. Determine the number of examples of each group that will be needed to find significant results.
+2. [2 points] Make avatar pairs using https://avatarmaker.com/ that differ along 1, 2, or all 3 components. Choose which avatar is the "origional" one, and which is the "updated" goal.
+3. [0.5 point] Host all of the images online.
+4. [0.5 points] Create CSV files to import into MTurk. These CSV files include links to the origional and updated avatar, a gold standard description, and identifying numbers
 
 **Milestone:** The input to the first MTurk task.
 
 
 ### [4 points] Run MTurk Creation Task
 
-1. [3 points] Create code that presents workers with two pictures with an indication of which one another worker should be able to choose. The task will also provide a textbox in which people write a one word distinguishing feature that they believe would be the most helpful for someone else to choose the indicated image.
+1. [3 points] Create code that presents workers with two pictures with an original avatar and a goal avatar. The task will also provide a textbox in which people write a phrase of instructions on how to change the original avatar into the goal avatar.
 2. [0.5 points] Run the experiment such that there are 3 workers per condition.
 3. [0.5 points] Create a qualification such that the workers that completed this task cannot participate in the validation task.
 
-**Milestone:** A CSV file of results from the first task, including a descriptive word for each pair of images.
+**Milestone:** A CSV file of results from the first task, including a description for each pair of images.
 
 ### [4 points] Run quality control module
 1. [3 points] Create code for the second task in which people see the 3 descriptive words and with the gold standard along with the two images. These workers must first guess the image, then select all labels that apply. We count a validation HIT as valid if the worker correctly selects the correct image and the gold standard answer.
@@ -51,6 +50,8 @@ This file describes the major components of our project. Each section contains t
 
 
 *Raw data*
+
+- docs/avatars_input.csv
 
 *Sample input/output for QC*
 
