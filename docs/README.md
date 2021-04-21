@@ -54,19 +54,25 @@ This file describes the major components of our project. Each section contains t
 
 *Sample input/output for QC*
 
+- docs/qualitycontrolmodel/sample_input_qc.csv: input to the quality control model
+
+- docs/qualitycontrolmodel/output1.csv: csv file containing the descriptions of the filtered workers' responses
+
+- docs/qualitycontrolmodel/good_workers.csv: csv file containing the worker ids of workers who answered the gold standard correctly
+
 *Sample input/output for aggregation*
 
 - docs/aggregation/aggregation_input.csv: input to the aggregation module
 
-- docs/aggregation/aggregation_output/datast.csv: the dataset for training machine learning module with the collected descriptions validated thorugh quality control
+- docs/aggregation/datast.csv: the dataset for training machine learning module with the collected descriptions validated thorugh quality control
 
-- docs/aggregation/aggregation_output/aggregated_by_group.txt: a dictionary mapping each group, as well as an 'all' category, to its respective data. Each group stores the descriptions by words, sentences, word frequencies, and clusters. 
+- docs/aggregation/aggregated_by_group.txt: a dictionary mapping each group, as well as an 'all' category, to its respective data. Each group stores the descriptions by words, sentences, word frequencies, and clusters. 
 
 *Code for QC*
 
-*Code for aggregation*
+- docs/qualitycontrolmodel/
 
-- docs/aggregation/glove.6B.50d.txt: the glove embeddings we use
+*Code for aggregation*
 
 - docs/aggregation/aggregation_module.ipynb: the aggregation module code
 
