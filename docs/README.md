@@ -28,7 +28,7 @@ This file describes the major components of our project. Each section contains t
 3. [0.5 points] Only retain data from the validation task in which the validators passed the gold standard task and selected the correct image.
 2. [0.5 points] Delete descriptive words that the validators say do not accurately represent the correct image.
 
-**Milestone:** A CSV file of labels on each one-word response that indicate if that word is relevant or not.
+**Milestone:** A CSV file of image pairs with all descriptions that passed the quality control task.
 
 ### [4 points] Data aggregation
 1. [0.5 points] Extract the sentences, words, and frequencies of words used to describe transformations.
