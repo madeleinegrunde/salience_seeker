@@ -23,7 +23,7 @@ This file describes the major components of our project. Each section contains t
 **Milestone:** A CSV file of results from the first task, including a description for each pair of images.
 
 ### [4 points] Run quality control module
-1. [3 points] Create code for the second task in which people see the 3 descriptive words and with the gold standard along with the two images. These workers must first guess the image, then select all labels that apply. We count a validation HIT as valid if the worker correctly selects the correct image and the gold standard answer.
+1. [2 points] Create code for the second task in which people see the 3 descriptive words and with the gold standard along with the two images. These workers must first guess the image, then select all labels that apply. We count a validation HIT as valid if the worker correctly selects the correct image and the gold standard answer.
 2. [1 point] Run the experiments. Run the task until all HITs have been completed such that the gold standard answer and the correct image were selected successfully
 3. [0.5 points] Only retain data from the validation task in which the validators passed the gold standard task and selected the correct image.
 2. [0.5 points] Delete descriptive words that the validators say do not accurately represent the correct image.
