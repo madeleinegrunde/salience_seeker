@@ -70,7 +70,7 @@ This file describes the major components of our project. Each section contains t
 
 *Code for QC*
 
-- docs/qualitycontrolmodel/
+- docs/qualitycontrolmodel/main.py: the quality control code
 
 *Code for aggregation*
 
