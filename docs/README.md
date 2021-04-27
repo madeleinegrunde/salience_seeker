@@ -46,6 +46,13 @@ This file describes the major components of our project. Each section contains t
 **Milestone:** An understanding of the types of descriptions used to make changes between avatars.
 
 # File Structure
+
+### Deliverable 3: 
+
+*A README describing how the code runs, and what kind of analysis you plan to do and how to do it.*
+
+- docs/deliverable3/README_code-analysis.md
+
 ### Deliverable 2:
 
 
