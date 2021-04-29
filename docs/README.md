@@ -49,9 +49,22 @@ This file describes the major components of our project. Each section contains t
 
 ### Deliverable 4:
 
-* Code used to complete analysis of results
+*Code used to complete analysis of results*
 
 - docs/deliverable4/Analysis.ipynb
+
+*Results from MTurk*
+
+- docs/deliverable4/validation_batch_results.csv: Raw data from MTurk collected from creation HITs
+
+- docs/deliverable4/validation_input.csv: Cleaned up data, contains the descriptions from creation HITs
+
+- docs/deliverable4/qc_output.csv:
+
+- docs/deliverable4/qc_input.csv:
+
+- docs/deliverable4/creation_batch_results.csv:
+
 
 ### Deliverable 3: 
 
