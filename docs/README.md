@@ -47,6 +47,12 @@ This file describes the major components of our project. Each section contains t
 
 # File Structure
 
+### Deliverable 4:
+
+* Code used to complete analysis of results
+
+- docs/deliverable4/Analysis.ipynb
+
 ### Deliverable 3: 
 
 *A README describing how the code runs, and what kind of analysis you plan to do and how to do it.*
