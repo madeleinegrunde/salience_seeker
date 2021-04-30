@@ -55,15 +55,15 @@ This file describes the major components of our project. Each section contains t
 
 *Results from MTurk*
 
-- docs/deliverable4/validation_batch_results.csv: Raw data from MTurk collected from creation HITs
+- docs/deliverable4/validation_batch_results.csv: csv file containing raw data from MTurk collected from validation HITs
 
-- docs/deliverable4/validation_input.csv: Cleaned up data, contains the descriptions from creation HITs
+- docs/deliverable4/validation_input.csv: Cleaned up data, contains the descriptions from validation HITs
 
-- docs/deliverable4/qc_output.csv:
+- docs/deliverable4/qc_output.csv: csv file containing the descriptions from workers who selected the gold standard
 
-- docs/deliverable4/qc_input.csv:
+- docs/deliverable4/qc_input.csv: csv file containing the descriptions from validation HITs
 
-- docs/deliverable4/creation_batch_results.csv:
+- docs/deliverable4/creation_batch_results.csv: csv file containing the raw data from MTurk collected from creation HITs
 
 
 ### Deliverable 3: 
